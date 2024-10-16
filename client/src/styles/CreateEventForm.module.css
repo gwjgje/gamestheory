@@ -1,0 +1,49 @@
+form {
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     margin: auto;
+     padding: 20px;
+     border-radius: 10px;
+     display: flex;
+     width: 25rem;
+     flex-direction: column;
+     gap: 10px 0px;
+}
+
+form>h1 {
+     text-align: center;
+     padding: 20px;
+     text-decoration: underline;
+}
+
+.std-label-input,
+.std-label-select {
+     display: flex;
+     flex-direction: column;
+}
+
+.std-label {
+     padding: 5px 0px;
+     font-weight: 600;
+     font-size: 18px;
+}
+
+.std-input,
+.std-select {
+     height: 40px;
+     padding-left: 10px;
+     border: none;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.std-btn {
+     padding: 8px 20px;
+     font-size: 18px;
+     font-weight: 600;
+     margin: 5px;
+     border: none;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+     border-radius: 5px;
+     background-color: #3dbfff;
+     color: white;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.Navbar {
+     width: 100%;
+     padding: 5px 25px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     backdrop-filter: blur(10px);
+     position: fixed;
+     top: 0;
+     left: 0;
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     z-index: 10;
+}
+
+a {
+     text-decoration: none;
+}
+
+.logo {
+     cursor: pointer;
+     width: fit-content;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     gap: 10px;
+     font-family: 'Roboto Mono', monospace;
+     color: var(--primary-bg-color);
+}
+
+
+.logo>img {
+     width: 40px;
+}
+
+.Navbar nav {
+     width: fit-content;
+}
+
+.Navbar ul {
+     width: fit-content;
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+}
+
+nav a {
+     text-transform: capitalize;
+     border-radius: 8px;
+     padding: 3px 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     font-size: 18px;
+     letter-spacing: 1px;
+     font-weight: 600;
+     border: 1px solid transparent;
+     background-color: var(--primary-bg-color);
+     color: #fff;
+     transition: background-color ease 400ms;
+}
+
+nav a:hover{
+     border: 1px solid dodgerblue;
+     background-color: transparent;
+     color: var(--primary-bg-color);
+}

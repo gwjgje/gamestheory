@@ -1,0 +1,127 @@
+.Dashboard {
+     padding-top: 55px;
+}
+
+.UserApplication h1:first-child {
+     text-align: center;
+     margin-top: 20px;
+}
+
+/* FILTER BY STATUS */
+.UserApplication>select {
+     display: flex;
+     font-size: 18px;
+     padding: 5px 15px;
+     border-radius: 18px;
+     margin-left: auto;
+     margin-right: 20px;
+}
+
+.Applications {
+     max-width: 50rem;
+     min-width: fit-content;
+     margin: 50px auto;
+}
+
+
+
+.ShortApplication {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     padding: 10px 20px;
+     border-radius: 8px;
+     margin-top: 15px;
+     color: black;
+}
+
+
+/* Left Portion */
+.ShortApplication>div:first-child {
+     flex: 4;
+     text-transform: capitalize;
+}
+
+
+.ShortApplication>div:first-child>h4 {
+     text-transform: capitalize;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+     width: 26rem;
+     overflow: hidden;
+}
+
+.ShortApplication>div:first-child>p {
+     font-size: 14px;
+}
+
+/* Right Portion */
+.ShortApplication>div:last-child {
+     flex: 2;
+     color: var(--color-1);
+     text-transform: capitalize;
+
+}
+
+/* Status */
+.ShortApplication>div:last-child>p:last-child {
+     font-weight: 700;
+}
+
+.ShortApplication>div:last-child bdi {
+     color: var(--color-3)
+}
+
+
+
+
+
+/* Events */
+.UserEvent>h1 {
+     text-align: center;
+}
+
+.CreateEventBtn {
+     text-transform: capitalize;
+     border-radius: 16px;
+     padding: 10px 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     font-size: 18px;
+     letter-spacing: 1px;
+     font-weight: 600;
+     border: 1px solid transparent;
+     background-color: var(--primary-bg-color);
+     color: #fff;
+     margin-left: auto;
+     margin-right: 20px;
+     transition: background-color ease 400ms;
+     cursor: pointer;
+}
+
+
+.CreateEventBtn:disabled {
+     cursor: not-allowed;
+     background-color: rgba(30, 143, 255, 0.568);
+}
+
+.CreateEventBtn:hover:not(:disabled) {
+     border: 1px solid dodgerblue;
+     background-color: transparent;
+     color: var(--primary-bg-color);
+}
+
+
+
+
+/* ================== MyEvent ================== */
+.MyEvent {
+     max-width: 50rem;
+     min-width: fit-content;
+     margin: 50px auto;
+}
